@@ -1,4 +1,4 @@
-package chenrujun.springsecurityoauth2resourceserversample;
+package chenrujun.spring.security.oauth2.resource.server.sample;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -6,8 +6,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class SpringSecurityOauth2ResourceServerSampleApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }

@@ -1,0 +1,12 @@
+server:
+  servlet:
+    session:
+      timeout: 36000000
+spring:
+  profiles:
+    active: develop
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://login.microsoftonline.com/${tenant-id}/v2.0
